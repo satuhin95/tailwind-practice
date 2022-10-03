@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Outfit:wght@100;200;300;400;500&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer components {
+    .btn{
+        @apply px-2 py-2  rounded-full uppercase text-xs;
+    }
+    .card{
+        @apply bg-white rounded-md shadow-md overflow-hidden  relative;
+    }
+    .badge {
+        @apply bg-secondary-100 text-white text-xs uppercase py-2 px-4 rounded-full absolute top-0 mt-4 ml-2;
+    }
+}
